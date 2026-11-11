@@ -2,14 +2,5 @@
   "version": 2,
   "framework": "express",
   "buildCommand": "pnpm --filter @sportpress/client build",
-  "installCommand": "pnpm install --frozen-lockfile",
-  "functions": {
-    "api/index.js": {
-      "includeFiles": "client/dist/**"
-
-    }
-  },
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/api" }
-  ]
+  "installCommand": "pnpm install --frozen-lockfile"
 }
