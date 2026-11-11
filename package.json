@@ -1,0 +1,13 @@
+{
+  "name": "sportpress",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@11.25.0",
+  "scripts": {
+    "dev": "pnpm --filter @sportpress/server dev",
+    "dev:client": "pnpm --filter @sportpress/client dev",
+    "dev:server": "pnpm --filter @sportpress/server dev",
+    "build": "pnpm --filter @sportpress/client build",
+    "check": "pnpm --filter @sportpress/server check && pnpm --filter @sportpress/client build"
+  }
+}

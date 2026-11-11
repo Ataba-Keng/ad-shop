@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" role="img" aria-labelledby="title desc">
+  <title id="title">Tribune urbaine AD Shop</title>
+  <desc id="desc">Illustration de formes graphiques vert profond, soleil corail et silhouettes urbaines sous un ciel ivoire.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#eee6d3"/><stop offset="1" stop-color="#c9d1bd"/></linearGradient>
+    <linearGradient id="field" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#315746"/><stop offset="1" stop-color="#173b2d"/></linearGradient>
+    <pattern id="grain" width="54" height="54" patternUnits="userSpaceOnUse"><circle cx="3" cy="8" r="1" fill="#16392c" opacity=".09"/><circle cx="31" cy="36" r="1" fill="#fff" opacity=".18"/></pattern>
+  </defs>
+  <rect width="1600" height="700" fill="url(#sky)"/>
+  <circle cx="1230" cy="170" r="128" fill="#df755d" opacity=".88"/>
+  <path d="M0 390 96 390 96 295 170 295 170 375 220 375 220 270 302 270 302 360 361 360 361 310 420 310 420 388 515 388 515 330 580 330 580 404 680 404 680 288 762 288 762 386 838 386 838 317 906 317 906 390 1004 390 1004 280 1094 280 1094 382 1170 382 1170 332 1256 332 1256 406 1343 406 1343 288 1424 288 1424 378 1490 378 1490 310 1600 310 1600 480 0 480Z" fill="#425d4d" opacity=".8"/>
+  <path d="M0 446 100 446 100 382 192 382 192 432 280 432 280 352 380 352 380 442 510 442 510 390 614 390 614 457 734 457 734 364 830 364 830 447 956 447 956 390 1056 390 1056 460 1196 460 1196 376 1280 376 1280 443 1397 443 1397 389 1490 389 1490 454 1600 454 1600 519 0 519Z" fill="#30483a"/>
+  <path d="M0 486h1600v214H0z" fill="url(#field)"/>
+  <path d="M820 490v210M46 700l224-210m1160 210-224-210M550 700l80-210m420 210-80-210" fill="none" stroke="#f1ead9" stroke-width="4" opacity=".58"/>
+  <ellipse cx="820" cy="700" rx="250" ry="142" fill="none" stroke="#f1ead9" stroke-width="4" opacity=".58"/>
+  <rect width="1600" height="700" fill="url(#grain)"/>
+  <path d="M1060 0h540v700h-540z" fill="#1d392c" opacity=".08"/>
+</svg>

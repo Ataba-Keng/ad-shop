@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="AD Shop">
+  <rect width="64" height="64" rx="14" fill="#10382d"/>
+  <path d="M14 44c8-1 13-5 18-13 4-7 9-11 18-12" fill="none" stroke="#f2efe7" stroke-linecap="round" stroke-width="5"/>
+  <path d="M16 51h31" fill="none" stroke="#e66b50" stroke-linecap="round" stroke-width="5"/>
+  <circle cx="47" cy="18" r="5" fill="#e66b50" stroke="#10382d" stroke-width="2"/>
+</svg>
