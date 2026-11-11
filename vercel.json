@@ -5,7 +5,8 @@
   "installCommand": "pnpm install --frozen-lockfile",
   "functions": {
     "api/index.js": {
-      "includeFiles": ["client/dist/**"]
+      "includeFiles": "client/dist/**"
+
     }
   },
   "rewrites": [
