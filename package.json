@@ -1,13 +1,12 @@
-{
-  "name": "sportpress",
-  "version": "0.1.0",
-  "private": true,
-  "packageManager": "pnpm@11.25.0",
-  "scripts": {
-    "dev": "pnpm --filter @sportpress/server dev",
-    "dev:client": "pnpm --filter @sportpress/client dev",
-    "dev:server": "pnpm --filter @sportpress/server dev",
-    "build": "pnpm --filter @sportpress/client build",
-    "check": "pnpm --filter @sportpress/server check && pnpm --filter @sportpress/client build"
-  }
+"dependencies": {
+  "@supabase/supabase-js": "^2.118.0",
+  "cors": "^2.8.6",
+  "dotenv": "^18.0.9",
+  "express": "^5.3.0",
+  "express-rate-limit": "^8.7.2",
+  "file-type": "^22.3.0",
+  "helmet": "^8.3.0",
+  "multer": "^2.5.0",
+  "sanitize-html": "^2.18.1",
+  "zod": "^4.6.7"
 }
