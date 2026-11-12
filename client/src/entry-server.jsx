@@ -1,6 +1,6 @@
 import React from 'react';
 import { renderToString } from 'react-dom/server';
-import { StaticRouter } from 'react-router-dom';
+import { StaticRouter } from 'react-router-dom/server';
 import { App } from './App.jsx';
 import { getSeoForPage, renderSeoHead } from './lib/seo.js';
 
