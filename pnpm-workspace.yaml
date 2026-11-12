@@ -5,3 +5,7 @@ packages:
 allowBuilds:
   esbuild: true
   '@tailwindcss/oxide': true
+
+overrides:
+  htmlparser2: 8.0.1
+
