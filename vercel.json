@@ -3,13 +3,7 @@
   "framework": "express",
   "buildCommand": "pnpm --filter @sportpress/client build",
   "installCommand": "pnpm install --no-frozen-lockfile",
-  "outputDirectory": "client/dist",
   "env": {
     "NODE_ENV": "production"
-  },
-  "routes": [
-    { "src": "/api/(.*)", "dest": "/api/index.js" },
-    { "handle": "filesystem" },
-    { "src": "/(.*)", "dest": "/index.html" }
-  ]
+  }
 }
