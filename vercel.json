@@ -5,5 +5,10 @@
   "installCommand": "pnpm install --no-frozen-lockfile",
   "env": {
     "NODE_ENV": "production"
-  }
+  },
+  "routes": [
+    { "src": "/api/(.*)", "dest": "/api/index.js" },
+    { "handle": "filesystem" },
+    { "src": "/(.*)", "dest": "/index.js" }
+  ]
 }
